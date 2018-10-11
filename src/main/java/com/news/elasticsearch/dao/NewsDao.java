@@ -25,7 +25,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 @Repository
 public class NewsDao {
 
-	private final String INDEX = "news912";
+	private final String INDEX = "news";
 	private final String TYPE = "feed";
 
 	private ObjectMapper objectMapper;
